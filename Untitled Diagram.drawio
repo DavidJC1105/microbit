@@ -1,9 +1,66 @@
-<mxfile host="app.diagrams.net" modified="2024-01-09T09:17:30.116Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.17" etag="oE_nrDlvwfCOPMV40SZT" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-11T14:04:43.859Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="dpo4E0Z0KKhI5EYl2gKq" version="22.1.17" type="github">
   <diagram name="Page-1" id="zXEo_0eJpxccdlIw6jy3">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="0b7SqtlW1HSYMeLbMBdQ-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0b7SqtlW1HSYMeLbMBdQ-1" target="0b7SqtlW1HSYMeLbMBdQ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0b7SqtlW1HSYMeLbMBdQ-1" value="Start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0b7SqtlW1HSYMeLbMBdQ-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0b7SqtlW1HSYMeLbMBdQ-2" target="0b7SqtlW1HSYMeLbMBdQ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0b7SqtlW1HSYMeLbMBdQ-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0b7SqtlW1HSYMeLbMBdQ-2" target="0b7SqtlW1HSYMeLbMBdQ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0b7SqtlW1HSYMeLbMBdQ-2" value="Sound Level" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="210" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0b7SqtlW1HSYMeLbMBdQ-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0b7SqtlW1HSYMeLbMBdQ-4" target="0b7SqtlW1HSYMeLbMBdQ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0b7SqtlW1HSYMeLbMBdQ-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0b7SqtlW1HSYMeLbMBdQ-4" target="0b7SqtlW1HSYMeLbMBdQ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0b7SqtlW1HSYMeLbMBdQ-4" value="Check if environment is too loud" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0b7SqtlW1HSYMeLbMBdQ-6" value="If yes: The microbit will alert you to move to a new space" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0b7SqtlW1HSYMeLbMBdQ-8" value="If no: The microbit will start a timer and track how long you study" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0b7SqtlW1HSYMeLbMBdQ-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0b7SqtlW1HSYMeLbMBdQ-10" target="0b7SqtlW1HSYMeLbMBdQ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0b7SqtlW1HSYMeLbMBdQ-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0b7SqtlW1HSYMeLbMBdQ-10" target="0b7SqtlW1HSYMeLbMBdQ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0b7SqtlW1HSYMeLbMBdQ-10" value="Timer" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="370" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0b7SqtlW1HSYMeLbMBdQ-12" value="Time spent studying will be tracked and logged in a firebase" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0b7SqtlW1HSYMeLbMBdQ-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0b7SqtlW1HSYMeLbMBdQ-14" target="0b7SqtlW1HSYMeLbMBdQ-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0b7SqtlW1HSYMeLbMBdQ-14" value="Evaluation" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="530" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0b7SqtlW1HSYMeLbMBdQ-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0b7SqtlW1HSYMeLbMBdQ-16" target="0b7SqtlW1HSYMeLbMBdQ-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0b7SqtlW1HSYMeLbMBdQ-16" value="Based on how many times you spend in a loud environment compared to a quiet one an evaluation will be made on your decisions for study space" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0b7SqtlW1HSYMeLbMBdQ-18" value="This will displayed on a site visually" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
